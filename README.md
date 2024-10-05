@@ -8,7 +8,7 @@ Heavy hitter detection is a fundamental task in network traffic measurement and 
 
 The datasets we use are two 1-minute traces downloaded from CAIDA-2016(https://catalog.caida.org/details/dataset/passive_2016_pcap) and CAIDA-2019(https://catalog.caida.org/details/dataset/passive_2019_pcap). In the traces, the data items are IP packets, and each flow’s key is identified by the source IP address. The 1-minute CAIDA-2016 trace contains over 31M items belonging to 0.58M flows, and the 1-minute CAIDA-2019 trace contains over 36M items belonging to 0.37M flows.
 
-We have provided a 1-minute CAIDA-2019 dataset in the folder "C++/data".
+We have provided a 1-minute CAIDA-2019 dataset in the folder "C++/data" (Due to GitHub's file upload limitations, we provide only a subset of the traffic data from the 1-minute CAIDA-2019 dataset).
 
 ## Running
 

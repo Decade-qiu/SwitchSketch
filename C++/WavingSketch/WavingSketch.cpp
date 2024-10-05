@@ -171,7 +171,7 @@ unsigned int ReadInTraces(const char* traceFilePath, const char* outputFilePath,
         keys[count] = key;
 
         // 写入前 1,000,000 个数据到输出文件
-        if (count < 1000000) {
+        if (count < 12500000) {
             fwrite(temp, 1, KEY_SIZE, fout);
         }
 
